@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+C:\Users\user\Desktop\4 th july nicea\NICE-A\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\496896460.index
+\sendingmail\src
+C:\Users\user\Desktop\4 th july nicea\NICE-A\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\832373635.index
+\Forgotpassword\src
+C:\Users\user\Desktop\4 th july nicea\NICE-A\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\665061894.index
+\sendingmail\src

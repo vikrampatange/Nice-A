@@ -1,0 +1,8 @@
+INDEX VERSION 1.122+C:\Users\user\Desktop\4 th july nicea\NICE-A\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1552796365.index
+640556885.index
+2768920902.index
+3768202581.index
+274819193.index
+1688447013.index
+496896460.index

@@ -1,0 +1,50 @@
+package com.mail;
+
+import com.mail.service.ConnectionProvider;
+import java.sql.*;
+public class MessageText {
+
+	
+	Connection conn;
+	public MessageText()
+	{
+		 conn = ConnectionProvider.getConnection();
+		 System.out.println("In Service connnection is "+ConnectionProvider.getConnection());
+	}
+	
+
+	public  String  getMessage(String email)
+	{ 
+		String result=getEmailId(email);
+		
+		
+		return result;
+	}
+	
+	public  String getEmailId(String email)
+	{
+		boolean status=false;
+		String tempPass="";
+		 String sql = "select  userEmail,password from userinfo WHERE userEmail= ?";
+         
+		 PreparedStatement ps;
+		try {
+			ps = conn.prepareStatement(sql);
+			 ps.setString(1, email);
+			 ResultSet rs=ps.executeQuery();
+			 status=rs.next();
+			 if(status==true)
+			 {
+				 tempPass=rs.getString(2);
+			 }
+			 
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+            
+            return tempPass;
+            
+           
+	}
+}
